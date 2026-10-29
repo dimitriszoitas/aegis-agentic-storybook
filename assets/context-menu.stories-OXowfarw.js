@@ -1,0 +1,16 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{t}from"./react-Q1GcV6wX.js";import{t as n}from"./jsx-runtime-DeHZSEgm.js";import{Ft as r,Ht as i,N as a,Rt as o,T as s}from"./icon-BaIjCmXl.js";import{n as c,t as l}from"./context-menu-pA3_mv0T.js";function u({defaultOpen:e=!1}){let[t,n]=(0,d.useState)(!0),[r,i]=(0,d.useState)(`documents`);return(0,f.jsx)(l,{defaultOpen:e,items:[{type:`checkbox`,id:`pin`,label:`Pin documents panel`,checked:t,onCheckedChange:n},{type:`separator`,id:`divider`},{type:`radio-group`,id:`view`,label:`Project view`,value:r,onValueChange:i,options:[{value:`documents`,label:`Documents`},{value:`timeline`,label:`Timeline`},{value:`rule`,label:`Workflow settings`}]}],children:(0,f.jsxs)(`div`,{className:`aegis-context-target`,children:[`Project workspace`,(0,f.jsx)(`br`,{}),(0,f.jsx)(`small`,{children:`Right-click or press Shift+F10 to adjust the view.`})]})})}var d,f,p,m,h,g,_,v,y;function b(){return(b=e((()=>{d=t(),i(),c(),f=n(),p={id:`components-lists-contextmenu`,title:`Components/Triggers/ContextMenu`,component:l,parameters:{docs:{story:{inline:!1,height:460}}},tags:[`autodocs`],args:{children:(0,f.jsxs)(`div`,{className:`aegis-context-target`,children:[`Customer portal redesign`,(0,f.jsx)(`br`,{}),(0,f.jsx)(`small`,{children:`Right-click or press Shift+F10 to open record actions.`})]}),items:[{type:`group`,id:`actions`,label:`REC-00842 · Record actions`,items:[{id:`open`,label:`Open project`,icon:(0,f.jsx)(a,{}),shortcut:`↵`},{id:`copy`,label:`Copy record identifier`,icon:(0,f.jsx)(s,{}),shortcut:`⌘C`},{type:`submenu`,id:`assign`,label:`Assign member`,icon:(0,f.jsx)(o,{}),items:[{id:`maya`,label:`Maya Chen`},{id:`nikos`,label:`Nikos Papadopoulos`}]}]},{type:`separator`,id:`divider`},{id:`delete`,label:`Delete project note`,icon:(0,f.jsx)(r,{}),intent:`destroy`}]}},m={},h={args:{defaultOpen:!0}},g={args:{disabled:!0,children:(0,f.jsx)(`div`,{className:`aegis-context-target`,children:`Archived project · Context actions are unavailable.`})}},_={render:()=>(0,f.jsx)(u,{})},v={render:()=>(0,f.jsx)(u,{defaultOpen:!0})},y=[`Default`,`OpenActions`,`Disabled`,`CheckboxAndRadio`,`OpenCheckboxAndRadio`],m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{}`,...m.parameters?.docs?.source}}},h.parameters={...h.parameters,docs:{...h.parameters?.docs,source:{originalSource:`{
+  args: {
+    defaultOpen: true
+  }
+}`,...h.parameters?.docs?.source}}},g.parameters={...g.parameters,docs:{...g.parameters?.docs,source:{originalSource:`{
+  args: {
+    disabled: true,
+    children: <div className="aegis-context-target">
+        Archived project · Context actions are unavailable.
+      </div>
+  }
+}`,...g.parameters?.docs?.source}}},_.parameters={..._.parameters,docs:{..._.parameters?.docs,source:{originalSource:`{
+  render: () => <Preferences />
+}`,..._.parameters?.docs?.source}}},v.parameters={...v.parameters,docs:{...v.parameters?.docs,source:{originalSource:`{
+  render: () => <Preferences defaultOpen />
+}`,...v.parameters?.docs?.source}}}})))()}b();export{_ as CheckboxAndRadio,m as Default,g as Disabled,h as OpenActions,v as OpenCheckboxAndRadio,y as __namedExportsOrder,p as default};
