@@ -4,4 +4,4 @@
 
 This repository contains the compiled public documentation and interactive demos. Development source is maintained separately. The site includes conventional components and patterns, contracts, agent skills and MCP setup documentation; it does not host infrastructure services or an MCP server.
 
-Published source commit: `a080d92c361db169083aa1272a5f9e99963a0213`. See `aegis-storybook-deployment.json` for build identity. GitHub Pages serves the `main` branch from the repository root. Updates are published by the source repository's explicit publishing command after a project-subpath browser check.
+Published source commit: `3d2f184a94721244d7d89f54e47e99a5b94b9658`. See `aegis-storybook-deployment.json` for build identity. GitHub Pages serves the `main` branch from the repository root. Updates are published by the source repository's explicit publishing command after a project-subpath browser check.

@@ -1,0 +1,20 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{c as t,l as n}from"./blocks-CMoFAzhn.js";import{t as r}from"./jsx-runtime-DeHZSEgm.js";import{i,r as a}from"./react-BXJ34t_g.js";import{g as o,m as s}from"./foundation-examples-DISHlyA4.js";import{a as c,d as l,o as u,u as d}from"./foundation-detail-examples-B3oO6ezh.js";function f(e){let n={code:`code`,h1:`h1`,h2:`h2`,p:`p`,...i(),...e.components};return(0,m.jsxs)(m.Fragment,{children:[(0,m.jsx)(t,{title:`Foundations/Typography`,id:`foundations-type-and-motion`}),`
+`,(0,m.jsx)(n.h1,{id:`typography`,children:`Typography`}),`
+`,(0,m.jsx)(n.p,{children:`Figtree supports scanning across application interfaces. JetBrains Mono distinguishes code, identifiers, and machine-readable data. Both families are self-hosted, so interfaces do not depend on a font CDN.`}),`
+`,(0,m.jsx)(n.h2,{id:`font-families`,children:`Font families`}),`
+`,(0,m.jsxs)(n.p,{children:[`The semantic families are `,(0,m.jsx)(n.code,{children:`--semantic-font-family-ui`}),` and `,(0,m.jsx)(n.code,{children:`--semantic-font-family-code`}),`. Components read them through their own group, such as `,(0,m.jsx)(n.code,{children:`--group-surface-font-family-ui`}),` or `,(0,m.jsx)(n.code,{children:`--group-code-code-editor-font-family-code`}),`. Use the UI family for labels and content, and the code family for code, timestamps, addresses, and identifiers. A monospaced font makes character positions predictable; it does not replace a clear label.`]}),`
+`,(0,m.jsx)(c,{}),`
+`,(0,m.jsx)(n.h2,{id:`semantic-text-roles`,children:`Semantic text roles`}),`
+`,(0,m.jsx)(n.p,{children:`All four configurations share font, size, weight, and spacing mappings. Semantic text roles reference primitives directly; family group tokens select the roles used by each component. These foundation specimens inspect the canonical semantic roles, while production components consume their family group.`}),`
+`,(0,m.jsx)(d,{}),`
+`,(0,m.jsxs)(n.p,{children:[`Title groups select `,(0,m.jsx)(n.code,{children:`--semantic-title-weight`}),`. Body text remains regular, and supporting content uses the secondary text role. Metric values use tabular numerals so changing numbers stay aligned. Reserve semantic color for values with meaningful status.`]}),`
+`,(0,m.jsx)(n.h2,{id:`type-scale`,children:`Type scale`}),`
+`,(0,m.jsxs)(n.p,{children:[`The canonical scale uses property-aware names such as `,(0,m.jsx)(n.code,{children:`--semantic-font-size-label`}),`, `,(0,m.jsx)(n.code,{children:`--semantic-font-size-body`}),`, and `,(0,m.jsx)(n.code,{children:`--semantic-font-size-heading-m`}),`. Choose a family group token that maps to the intended role when composing interface content. Existing `,(0,m.jsx)(n.code,{children:`--text-*`}),` names are compatibility aliases, not the source for new styling.`]}),`
+`,(0,m.jsx)(s,{}),`
+`,(0,m.jsx)(n.h2,{id:`weight-and-rhythm`,children:`Weight and rhythm`}),`
+`,(0,m.jsx)(n.p,{children:`Use weight to clarify hierarchy within a size. Avoid turning every label into a heading. The available weight tokens are shown in ascending order.`}),`
+`,(0,m.jsx)(u,{}),`
+`,(0,m.jsx)(n.p,{children:`Line-height and tracking tokens support individual component needs. Preserve the component's existing text rhythm when composing it; do not apply one compact line-height to all content. Allow body copy to wrap and keep complete identifiers available when visual text is truncated.`}),`
+`,(0,m.jsx)(n.h2,{id:`writing-for-interfaces`,children:`Writing for interfaces`}),`
+`,(0,m.jsx)(n.p,{children:`Use sentence case, familiar words, and concrete action labels. Keep related labels consistent across the application. Placeholder text supplements a label; it does not replace one.`}),`
+`,(0,m.jsxs)(n.p,{children:[`Read `,(0,m.jsx)(`a`,{className:`foundation-detail-link`,href:`./?path=/docs/foundations-motion--docs`,target:`_top`,children:`Motion`}),` for transitions and reduced-motion behavior.`]})]})}function p(e={}){let{wrapper:t}={...i(),...e.components};return t?(0,m.jsx)(t,{...e,children:(0,m.jsx)(f,{...e})}):f(e)}var m;function h(){return(h=e((()=>{m=r(),a(),n(),o(),l()})))()}h();export{p as default};
