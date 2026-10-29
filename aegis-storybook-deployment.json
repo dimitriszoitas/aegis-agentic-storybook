@@ -1,0 +1,8 @@
+{
+  "kind": "aegis-storybook-static",
+  "schemaVersion": 1,
+  "destination": "dimitriszoitas/aegis-agentic-storybook",
+  "sourceCommit": "a080d92c361db169083aa1272a5f9e99963a0213",
+  "indexSha256": "5f6a463a9070312666565e078328a4751b4c51334a1a22e9771a2a9309c35860",
+  "entryCount": 2215
+}
